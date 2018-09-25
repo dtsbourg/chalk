@@ -25,8 +25,8 @@
       <meta name="twitter:image" content="{{ site.url }}{% asset '{{ page.thumb_image }}' @path %}">
     {% endif %}
   {% else %}
-    <meta property="og:image" content="{{ site.url }}{% asset og-image.jpg @path %}">
-    <meta name="twitter:image" content="{{ site.url }}{% asset og-image.jpg @path %}">
+    <meta property="og:image" content="{{ site.url }}{% asset ico/mstile-310x310.png @path %}">
+    <meta name="twitter:image" content="{{ site.url }}{% asset ico/mstile-310x310.png @path %}">
   {% endif %}
 
   <link href="{{ 'feed.xml' | absolute_url }}" type="application/rss+xml" rel="alternate" title="{{ site.name }} Last 10 blog posts" />
@@ -36,12 +36,12 @@
   {% endif %}
 
   {% if site.blog_theme == "light" %}
-    <link rel="icon" type="image/x-icon" href="{% asset favicon-light.ico @path %}">
-    <link rel="apple-touch-icon" href="{% asset apple-touch-icon-light.png @path %}">
+    <link rel="icon" type="image/x-icon" href="{% asset ico/favicon.ico @path %}">
+    <link rel="apple-touch-icon" href="{% asset ico/apple-touch-icon.png @path %}">
     {% asset light.css %}
   {% else %}
-    <link rel="icon" type="image/x-icon" href="{% asset favicon-dark.ico @path %}">
-    <link rel="apple-touch-icon" href="{% asset apple-touch-icon-dark.png @path %}">
+    <link rel="icon" type="image/x-icon" href="{% asset ico/favicon.ico @path %}">
+    <link rel="apple-touch-icon" href="{% asset ico/apple-touch-icon.png @path %}">
     {% asset dark.css %}
   {% endif %}
 </head>
