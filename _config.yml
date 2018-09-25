@@ -4,7 +4,7 @@ name: dtsbourg / Thoughts
 paginate: 25
 url: https://dtsbourg.github.io
 blog_theme: light # Or use dark
-baseurl: /chalk
+baseurl: /thoughts
 
 # Optional settings
 
