@@ -1,4 +1,0 @@
----
-slug: nlp
-name: nlp
----
