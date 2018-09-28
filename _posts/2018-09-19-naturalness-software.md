@@ -24,7 +24,7 @@ As statistical language models have enabled huge success in translation, generat
 Build n-gram models of large text and source-code datasets and compute the cross-entropy of code (comparing how surprising an unseen document is compared to the rest of the corpus). The authors compare English cross-entropy vs code cross-entropy and find that “*software is far more regular than English*”.
 
 {% include image.html path="naturalness/fig1.png"
-                      path-detail="documentation/chalk-intro@2x.png"
+                      path-detail="naturalness/fig1.png"
                       alt="Test" %}
 
 **RQ2**: Is the local regularity that the statistical LM captures merely language-specific or is it also project-specific?
@@ -32,7 +32,7 @@ Build n-gram models of large text and source-code datasets and compute the cross
 Evaluate cross-entropy across different software projects, finding that structure is project-specific. In other words each software group carries strong local structure but not a global pattern.
 
 {% include image.html path="naturalness/fig2.png"
-                      path-detail="documentation/chalk-intro@2x.png"
+                      path-detail="naturalness/fig2.png"
                       alt="Test" %}
 
 **RQ3**: Do n-gram models capture similarities within and differences between project domains?
@@ -40,7 +40,7 @@ Evaluate cross-entropy across different software projects, finding that structur
 The authors compare the cross-entropies of application domains within a project, finding that local regularities do appear within application domains, and much less across. This means there is an influence of the software’s function, not just its form.
 
 {% include image.html path="naturalness/fig3.png"
-                      path-detail="documentation/chalk-intro@2x.png"
+                      path-detail="naturalness/fig3.png"
                       alt="Test" %}
 
 ## Evaluation
